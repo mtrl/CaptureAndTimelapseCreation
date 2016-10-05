@@ -1,0 +1,2 @@
+./create.sh
+./upload.sh
