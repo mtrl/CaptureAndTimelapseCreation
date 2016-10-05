@@ -1,4 +1,8 @@
 #!/bin/bash
 mkdir captured
 cd captured
-watch -n60 'TIME=$(date +"%Y%m%d-%H%M%S");imagesnap -d "Mobius" $TIME.jpg'
+DATE=$(date +"%Y-%m-%d")
+mkdir $DATE
+cd $DATE
+TIME=$(date +"%Y%m%d-%H%M%S")
+imagesnap -d "Mobius" $TIME.jpg
