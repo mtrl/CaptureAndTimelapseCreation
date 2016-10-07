@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 mkdir captured
 cd captured
 DATE=$(date +"%Y-%m-%d")
